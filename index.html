@@ -33,6 +33,9 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
@@ -48,19 +51,78 @@
           <div class="carousel-item" style="background-image: url('imgs/loteria3.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>Lotería Web</h3>
+              <p>Proyecto Arquitectura de Software</p>
             </div>
             <div class="overlay">
-              <div class="text"><p>Se hizo una plataforma para jugar lotería a manera multijugador por conexión por medio de sockets y microservicios.</p>
-              <p>Link del proyecto: <url=""</p></div>
+              <div class="text"><p>Se hizo una plataforma para jugar lotería a manera multijugador por conexión por medio de sockets y microservicios.
+              <br>Se utilizaron tecnologías web como Javascript, NodeJS y Socket.io.
+            <br>El equipo se conformó por seis personas.</p>
+              <p> <a href="https://github.com/Guazaman/Loteria" target="_blank">Link al código.</a></p></div>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/5/59/Pac-man.png')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
+              <h3>Pacman</h3>
+              <p>Proyecto Sistemas Inteligentes</p>
+            </div>
+            <div class="overlay">
+              <div class="text"><p>Práctica entregable para comprender los temas de búsqueda informada, algoritmos metaheurísticos y lógica difusa.
+              <br><br> <b>Objetivo:</b>
+Implementar las técnicas de lógica difusa para modelar el comportamiento de algunos personajes en el clásico videojuego de pacman.
+<br><br>Se desarrolló el videojuego utilizando Unity 3d usando su función de 2D y el código se hizo en lenguaje C#.
+<br><br>La Inteligencia Artificial en este juego se encuentra en los distintos comportamientos de los 4 fantasmas:
+<br><b>Blinky.</b> El fantasma rojo poseé el comportamiento más sencillo, su objetivo es simple y sencillamente alcanzar a PacMan. Constantemente está checando la posición de PacMan, ve los nodos adyacentes al nodo en cual está actualmente y se mueve al nodo adyacente que acorte más la distancia entre su posición actual y la de PacMan.
+
+<br><b>Pinky.</b> El fantasma rosa juega más inteligentemente. Su misión es siempre tratar de colocarse 4 espacios enfrente de PacMan. Es decir, Pinky siempre trata de cortarle el camino, de “acorralarlo”.
+
+<br><b>Inky.</b> El enemigo azul poseé la IA más complejo, a comparación con los otros 3. Él constantemente está obteniendo la posición 2 nodos adelante de PacMan. Traza un vector entre dicha posición y su propia posición (el nodo en el que se encuentra ubicado), después multiplica ese vector por dos y lo recorre en la misma dirección a la que PacMan se está dirigiendo actualmente.
+
+<br><b>Clyde.</b> El verdadero fantasma difuso del juego. El comportamiento de Clyde está basado completamente en la cercanía que tiene con PacMan. Clyde actúa como Blinky, siempre persiguiendo a PacMan y tratando de alcanzarlo, pero cuando está a punto de atraparlo (cuando siente que está muy cerca o extremadamente cerca de alcanzarlo) se aleja de él inmediatamente. El que su movimiento depende de su cercanía con PacMan lo hace meramente difuso.
+ </p>
+              <br><p><a href="https://github.com/Guazaman/PacMan" target="_blank">Link al código.</a></p></div>
             </div>
           </div>
+
+          <div class="carousel-item" style="background-image: url('imgs/cardCompiler.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Card Compiler</h3>
+              <p> Proyecto Compiladores</p>
+            </div>
+            <div class="overlay">
+              <div class="text"><p>Comprender las partes de un compilador mediante la
+                creación de una aplicación web, la cual sirve para enseñar conceptos básicos de programación de manera visual usando una baraja.
+                <br> Se hizo todo el proceso de la creación del compilador, como sería la definición de las gramáticas y el código intermedio.
+</p>
+              <p><a href="https://github.com/Kimbuca/card_compiler" target="_blank">Link al código.</a></p></div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('imgs/selfStudy.png')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Self Study</h3>
+              <p> Proyecto Desarrollo de dispositivos Móviles</p>
+            </div>
+            <div class="overlay">
+              <div class="text"><p>Creación de una aplicación para Android que se publicó en la PlayStore. Se desarrollo con Java en Android Studio.
+              <br>La función de la aplicación era que el estudiante creara cuestionarios que le podrían ayudar a estudiar. Incluso podía compartir preguntas con otros usuarios.
+            <br>Los datos (cuestionarios) se almacenaban en una base de datos de FireBase e incluso se tenía Login con Google.</p>
+            </div>
+          </div>
+        </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('imgs/smartParking.png')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Smart Parking</h3>
+              <p>Taller Vertical 2016</p>
+            </div>
+            <div class="overlay">
+              <div class="text"><p>Taller vertical (concurso /reto para estudiantes de ISC del ITESM Campus Guadalajara) organizado por Intel.
+              El reto consistía en utilizar sensores que mandaran información a una tarjeta Edison y con esa información ayudar a mejorar el sistema de estacionamiento del campus.
+            <br>Mi equipo decidió crear una aplicación que te guiaba a un cajón de estacionamiento de la zona que qisieras, reservándolo para ti durante cierto tiempo para alcanzar a llegar. Los sensores se utilizarían en los cajones para saber si están llenos.</p></div>
+            </div>
+          </div>
+
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -78,8 +140,8 @@
       <div class="container">
         <h1>Ariadna N. Hernández Rivero</h1>
         <h3>A01228363</h3>
-        <p>El slider presentado arriba contiene imagenes y una breve descipción de los proyectos y concursos en lso cuales participé durante mi carrera en el ITESM
-        Campus Guadalajara. Para leer una descripción más detallada, pasar el maouse por encima de la imagen. Usar las flechas para navegar por los proyectos. </p>
+        <p>El slider presentado arriba contiene imagenes y el nombre de los proyectos y concursos en lso cuales participé durante mi carrera en el ITESM
+        Campus Guadalajara. Para leer la descripción de los proyectos, pasar el mouse por encima de la imagen. Usar las flechas para navegar por los proyectos.</p>
 
       </div>
     </section>
